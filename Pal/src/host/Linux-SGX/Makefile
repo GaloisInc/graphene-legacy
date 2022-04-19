@@ -1,7 +1,7 @@
 include ../../../../Makefile.configs
 include Makefile.am
 
-ias_cert_url ?= https://software.intel.com/sites/default/files/managed/7b/de/RK_PUB.zip
+ias_cert_url ?= https://community.intel.com/legacyfs/online/drupal_files/managed/7b/de/RK_PUB.zip
 ias_cert_zip = quote/$(notdir $(ias_cert_url))
 
 CFLAGS	+= -I. -Iinclude -I../.. -I../../../include -I../../../lib -Isgx-driver
